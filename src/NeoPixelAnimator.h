@@ -41,6 +41,7 @@ struct AnimationParam
     float progress;
     uint16_t index;
     AnimationState state;
+    uint16_t cycles;
 };
 
 #ifdef ARDUINO_ARCH_AVR
